@@ -1,0 +1,44 @@
+{
+  "name": "nodo-localsharefile",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:https": "tsx https-proxy.ts --dev",
+    "build": "next build",
+    "start": "next start -H 127.0.0.1",
+    "start:https": "tsx https-proxy.ts",
+    "helper": "npm --prefix helper start",
+    "helper:install": "npm --prefix helper install",
+    "server": "./start-server.sh",
+    "server:stop": "./stop-server.sh",
+    "cert": "./scripts/gen-cert.sh",
+    "db:migrate": "tsx migrate.ts",
+    "db:generate": "drizzle-kit generate",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "17.3.1",
+    "drizzle-orm": "0.45.2",
+    "lucide-react": "^1.52.0",
+    "next": "16.2.6",
+    "pg": "8.20.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.1.17",
+    "@types/node": "22.19.15",
+    "@types/pg": "8.18.0",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "drizzle-kit": "0.31.10",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.6",
+    "postcss": "8.5.8",
+    "tailwindcss": "4.1.17",
+    "tsx": "^4.23.15",
+    "typescript": "5.9.3"
+  }
+}

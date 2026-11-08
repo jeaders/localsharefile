@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Avvia NODO Server
+Name[en]=Start NODO Server
+GenericName=File sharing e controllo remoto
+Comment=Avvia il server NODO e apre Chrome
+Exec=/home/jead/Scrivania/local-file-sharing-and-control/start-server.sh
+Icon=applications-internet
+Terminal=true
+Categories=Network;Utility;
+Keywords=nodo;server;share;
+StartupNotify=false

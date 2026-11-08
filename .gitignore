@@ -1,0 +1,30 @@
+# dipendenze
+node_modules/
+helper/node_modules/
+
+# build Next.js
+.next/
+out/
+build/
+next-env.d.ts
+*.tsbuildinfo
+
+# segreti e configurazione locale
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# dati caricati dagli utenti (contengono file personali)
+data/
+
+# runtime / log
+.server.log
+.server.pid
+.server.pid.pgid
+
+# sistema
+.DS_Store
+Thumbs.db
+*.swp

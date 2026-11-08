@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Ferma NODO Server
+Name[en]=Stop NODO Server
+GenericName=File sharing e controllo remoto
+Comment=Arresta il server NODO
+Exec=/home/jead/Scrivania/local-file-sharing-and-control/stop-server.sh
+Icon=process-stop
+Terminal=true
+Categories=Network;Utility;
+Keywords=nodo;server;stop;
+StartupNotify=false

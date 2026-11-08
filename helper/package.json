@@ -1,0 +1,14 @@
+{
+  "name": "nodo-input-helper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Helper nativo NODO: riceve eventi mouse/tastiera e li inietta a livello di sistema operativo",
+  "main": "input-agent.mjs",
+  "scripts": {
+    "start": "node input-agent.mjs"
+  },
+  "dependencies": {
+    "@nut-tree-fork/nut-js": "^4.2.6"
+  }
+}
