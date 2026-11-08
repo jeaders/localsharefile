@@ -7,6 +7,10 @@
     "type": "git",
     "url": "git+https://github.com/jeaders/localsharefile.git"
   },
+  "author": {
+    "name": "Alex Mirici Web Developer",
+    "url": "https://alexmirici.netlify.app"
+  },
   "scripts": {
     "dev": "next dev",
     "dev:https": "tsx https-proxy.ts --dev",

@@ -320,4 +320,10 @@ Se metti NODO dietro un altro proxy, disabilita il buffering sulle risposte
 
 Distribuito con licenza **MIT** — vedi [LICENSE](LICENSE).
 
-Copyright © 2026 jeaders.
+Copyright © 2026 [Alex Mirici Web Developer](https://alexmirici.netlify.app).
+
+---
+
+<p align="center">
+  Realizzato da <a href="https://alexmirici.netlify.app"><strong>Alex Mirici</strong> · Web Developer</a>
+</p>
