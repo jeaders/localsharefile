@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="NODO — condivisione file e controllo remoto sulla LAN">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b14"/>
+      <stop offset="0.55" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#0d1526"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.18" cy="0.15" r="0.75">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.92" cy="0.9" r="0.7">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e2f6ff"/>
+      <stop offset="0.6" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#93c5fd" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#grid)"/>
+  <rect width="1280" height="360" fill="url(#glowA)"/>
+  <rect width="1280" height="360" fill="url(#glowB)"/>
+
+  <!-- marchio -->
+  <g transform="translate(88 108)">
+    <rect x="0" y="0" width="104" height="104" rx="28" fill="#0b1220" stroke="url(#mark)" stroke-width="2.5"/>
+    <circle cx="34" cy="52" r="11" fill="none" stroke="#22d3ee" stroke-width="3"/>
+    <circle cx="70" cy="34" r="8" fill="none" stroke="#a78bfa" stroke-width="3"/>
+    <circle cx="70" cy="70" r="8" fill="none" stroke="#a78bfa" stroke-width="3"/>
+    <path d="M44 48 L62 37 M44 56 L62 66" stroke="#7dd3fc" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="222" y="158" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="82" font-weight="800" letter-spacing="10" fill="url(#word)">NODO</text>
+  <text x="226" y="196" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="500" fill="#9fb3c8" letter-spacing="0.4">Condivisione file e controllo remoto sulla tua LAN.</text>
+
+  <!-- chip -->
+  <g font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="600">
+    <g>
+      <rect x="226" y="222" width="104" height="36" rx="18" fill="#0f1b2e" stroke="#1e3a5f"/>
+      <text x="278" y="245" text-anchor="middle" fill="#7dd3fc">Next.js 16</text>
+    </g>
+    <g>
+      <rect x="342" y="222" width="78" height="36" rx="18" fill="#0f1b2e" stroke="#1e3a5f"/>
+      <text x="381" y="245" text-anchor="middle" fill="#7dd3fc">SSE</text>
+    </g>
+    <g>
+      <rect x="432" y="222" width="106" height="36" rx="18" fill="#0f1b2e" stroke="#1e3a5f"/>
+      <text x="485" y="245" text-anchor="middle" fill="#7dd3fc">WebRTC</text>
+    </g>
+    <g>
+      <rect x="550" y="222" width="134" height="36" rx="18" fill="#0f1b2e" stroke="#1e3a5f"/>
+      <text x="617" y="245" text-anchor="middle" fill="#7dd3fc">PostgreSQL</text>
+    </g>
+    <g>
+      <rect x="696" y="222" width="132" height="36" rx="18" fill="#0f1b2e" stroke="#1e3a5f"/>
+      <text x="762" y="245" text-anchor="middle" fill="#a78bfa">token + TLS</text>
+    </g>
+  </g>
+
+  <text x="226" y="300" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3.2" fill="#5f7893">SELF-HOSTED · NESSUN CLOUD · MIT</text>
+
+  <!-- illustrazione: schermi collegati -->
+  <g transform="translate(930 96)" opacity="0.95">
+    <ellipse cx="130" cy="120" rx="130" ry="88" fill="#22d3ee" opacity="0.10" filter="url(#soft)"/>
+    <rect x="8" y="30" width="212" height="132" rx="14" fill="#0a1424" stroke="#27476b" stroke-width="2"/>
+    <rect x="22" y="44" width="184" height="104" rx="8" fill="#0d1a2c"/>
+    <rect x="34" y="58" width="56" height="10" rx="5" fill="#22d3ee" opacity="0.7"/>
+    <rect x="34" y="78" width="128" height="8" rx="4" fill="#334d6b"/>
+    <rect x="34" y="94" width="96" height="8" rx="4" fill="#334d6b"/>
+    <rect x="34" y="110" width="112" height="8" rx="4" fill="#334d6b"/>
+    <rect x="34" y="126" width="72" height="8" rx="4" fill="#8b5cf6" opacity="0.8"/>
+    <rect x="88" y="162" width="52" height="8" rx="4" fill="#27476b"/>
+    <rect x="60" y="170" width="108" height="6" rx="3" fill="#1b3350"/>
+
+    <g transform="translate(212 74)">
+      <rect x="0" y="0" width="76" height="122" rx="14" fill="#0a1424" stroke="#8b5cf6" stroke-width="2"/>
+      <rect x="8" y="14" width="60" height="94" rx="8" fill="#101d33"/>
+      <rect x="18" y="28" width="40" height="8" rx="4" fill="#a78bfa" opacity="0.8"/>
+      <rect x="18" y="46" width="30" height="6" rx="3" fill="#334d6b"/>
+      <rect x="18" y="60" width="38" height="6" rx="3" fill="#334d6b"/>
+      <rect x="18" y="80" width="24" height="6" rx="3" fill="#22d3ee" opacity="0.7"/>
+    </g>
+
+    <path d="M224 96 C 250 96, 244 120, 214 120" fill="none" stroke="#7dd3fc" stroke-width="2" stroke-dasharray="5 6" opacity="0.8"/>
+    <circle cx="236" cy="106" r="4" fill="#7dd3fc"/>
+  </g>
+</svg>

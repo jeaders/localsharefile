@@ -2,6 +2,11 @@
   "name": "nodo-localsharefile",
   "version": "1.0.0",
   "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeaders/localsharefile.git"
+  },
   "scripts": {
     "dev": "next dev",
     "dev:https": "tsx https-proxy.ts --dev",
