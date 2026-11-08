@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82" height="20" role="img" aria-label="node: 20.9+">
+  <title>node: 20.9+</title>
+  <linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-opacity=".12"/></linearGradient>
+  <rect width="82" height="20" rx="3" fill="#3a4657"/>
+  <rect x="38" width="44" height="20" rx="3" fill="#3c873a"/>
+  <rect width="82" height="20" rx="3" fill="url(#s)"/>
+  <g fill="#fff" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11" text-anchor="middle">
+    <text x="19" y="14">node</text>
+    <text x="60" y="14">20.9+</text>
+  </g>
+</svg>

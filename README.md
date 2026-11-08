@@ -1,12 +1,10 @@
 ![NODO](docs/banner.png)
 
-<p align="center">
-  <a href="LICENSE"><img alt="Licenza MIT" src="https://img.shields.io/badge/license-MIT-22d3ee.svg"></a>
-  <img alt="Next.js 16" src="https://img.shields.io/badge/Next.js-16-000000.svg">
-  <img alt="Node >= 20.9" src="https://img.shields.io/badge/node-%3E%3D20.9-3c873a.svg">
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-14%2B-336791.svg">
-  <img alt="WebRTC" src="https://img.shields.io/badge/WebRTC-screen%20%2B%20input-8b5cf6.svg">
-</p>
+[![Licenza MIT](docs/badges/license.svg)](LICENSE)
+![Next.js 16](docs/badges/nextjs.svg)
+![Node 20.9+](docs/badges/node.svg)
+![PostgreSQL 14+](docs/badges/postgresql.svg)
+![WebRTC](docs/badges/webrtc.svg)
 
 **NODO** trasforma i computer della tua rete locale in un unico workspace: trascini un file
 dal PC e lo trovi sull'altro, vedi lo schermo remoto, muovi il mouse vero, mandi un link

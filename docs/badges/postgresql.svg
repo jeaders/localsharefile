@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="107" height="20" role="img" aria-label="PostgreSQL: 14+">
+  <title>PostgreSQL: 14+</title>
+  <linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-opacity=".12"/></linearGradient>
+  <rect width="107" height="20" rx="3" fill="#3a4657"/>
+  <rect x="76" width="31" height="20" rx="3" fill="#336791"/>
+  <rect width="107" height="20" rx="3" fill="url(#s)"/>
+  <g fill="#fff" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11" text-anchor="middle">
+    <text x="38" y="14">PostgreSQL</text>
+    <text x="91.5" y="14">14+</text>
+  </g>
+</svg>
